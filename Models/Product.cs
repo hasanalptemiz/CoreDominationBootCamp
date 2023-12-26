@@ -2,7 +2,7 @@ namespace CoreDominationBootCamp.Models
 {
     public class Product
     {
-        public Product(int id, string name, decimal Unitprice, Category Category ){
+        public Product(int id, string name, decimal unitPrice, Category category ){
             ID = id;
             Name = name;
             UnitPrice = unitPrice;
