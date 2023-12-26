@@ -1,5 +1,5 @@
 using CoreDominationBootCamp.Models;
-namespace YourNamespace.Services
+namespace CoreDominationBootCamp.Services
 {
     public class ProductService
     {

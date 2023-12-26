@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using CoreDominationBootCamp.Models;
 using CoreDominationBootCamp.Services;
 
-namespace CoreDominationBootCamp.ProductController
+namespace CoreDominationBootCamp.Controllers
 {
 
     [ApiController]
