@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hasan\\OneDrive\\Masaüstü\\GitHub\\CoreDominationBootCamp\\CoreDominationBootCampProjects.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hasan\\OneDrive\\Masaüstü\\GitHub\\CoreDominationBootCamp\\CoreDominationBootCampProjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hasan\\OneDrive\\Masaüstü\\GitHub\\CoreDominationBootCamp\\CoreDominationBootCampProjects.csproj",
+        "projectName": "CoreDominationBootCampProjects",
+        "projectPath": "C:\\Users\\hasan\\OneDrive\\Masaüstü\\GitHub\\CoreDominationBootCamp\\CoreDominationBootCampProjects.csproj",
+        "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hasan\\OneDrive\\Masaüstü\\GitHub\\CoreDominationBootCamp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hasan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
