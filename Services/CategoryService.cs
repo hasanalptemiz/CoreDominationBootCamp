@@ -1,6 +1,6 @@
 using CoreDominationBootCamp.Models;
 
-namespace Services
+namespace CoreDominationBootCamp.Services
 {
     public class CategoryService
     {
