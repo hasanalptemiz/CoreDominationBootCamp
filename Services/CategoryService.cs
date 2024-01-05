@@ -18,7 +18,9 @@ namespace CoreDominationBootCamp.Services
 
         public Category GetCategoryById(int categoryId)
         {
-            return categories.Find(c => c.Id == categoryId);
+            // what is the problem below code
+            // return categories[categoryId];
+            return categories[categoryId]; 
         }
     }
 }

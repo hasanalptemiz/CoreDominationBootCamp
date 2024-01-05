@@ -124,3 +124,4 @@ C:\Users\hasan\OneDrive\Masaüstü\GitHub\CoreDominationBootCamp\obj\Debug\net6.
 C:\Users\hasan\OneDrive\Masaüstü\GitHub\CoreDominationBootCamp\obj\Debug\net6.0\CoreDominationBootCampProjects.csproj.CopyComplete
 C:\Users\hasan\OneDrive\Masaüstü\GitHub\CoreDominationBootCamp\obj\Debug\net6.0\CoreDominationBootCampProjects.genruntimeconfig.cache
 C:\Users\hasan\OneDrive\Masaüstü\GitHub\CoreDominationBootCamp\obj\Debug\net6.0\ref\CoreDominationBootCampProjects.dll
+C:\Users\hasan\OneDrive\Masaüstü\GitHub\CoreDominationBootCamp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

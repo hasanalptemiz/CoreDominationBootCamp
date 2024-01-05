@@ -19,7 +19,7 @@ namespace CoreDominationBootCamp.Services
 
         public Product GetProductById(int productId)
         {
-            return products.Find(p => p.ID == productId);
+            return products[productId]  ;
         }
 
         public void AddProduct(Product newProduct)
