@@ -4,6 +4,7 @@ using CoreDominationBootCamp.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CoreDominationBootCampProjects.Migrations
 {
     [DbContext(typeof(CoreDominationDbContext))]
-    partial class CoreDominationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240105161805_CRUDTablesUpdateContext")]
+    partial class CRUDTablesUpdateContext
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
