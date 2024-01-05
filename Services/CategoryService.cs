@@ -8,7 +8,7 @@ namespace CoreDominationBootCamp.Services
         {
             new Category(1, "Electronics"),
             new Category(2, "Books"),
-            // Diğer kategorileri buraya ekleyebilirsiniz.
+            // you can add other categories here.
         };
 
         public List<Category> GetAllCategories()
@@ -18,8 +18,7 @@ namespace CoreDominationBootCamp.Services
 
         public Category GetCategoryById(int categoryId)
         {
-            // what is the problem below code
-            // return categories[categoryId];
+         
             return categories[categoryId]; 
         }
     }

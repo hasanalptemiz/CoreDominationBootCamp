@@ -9,7 +9,7 @@ namespace CoreDominationBootCamp.Services
             new Product(2, "Smartphone", 800.00m, new Category(1, "Electronics")),
             new Product(3, "Headphones", 100.00m, new Category(1, "Electronics")),
             new Product(4, "Book", 20.00m, new Category(2, "Books")),
-            // Diğer ürünleri buraya ekleyebilirsiniz.
+            // you can Add other products here.
         };
 
         public List<Product> GetAllProducts()
