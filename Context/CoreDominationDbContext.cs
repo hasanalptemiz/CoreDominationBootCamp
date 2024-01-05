@@ -14,3 +14,4 @@ namespace CoreDominationBootCamp.Context
         public DbSet<Employee> Employees { get; set; }
 }
 }
+

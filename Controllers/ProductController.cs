@@ -48,7 +48,7 @@ namespace CoreDominationBootCamp.Controllers
         public IActionResult Delete(int id)
         {
             _productService.DeleteProduct(id);
-            return Ok($"ID'si {id} olan ürün başarıyla silindi.");
+            return Ok($"The product with id {id} has been deleted");
         }
 }
 
