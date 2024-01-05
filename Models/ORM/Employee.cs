@@ -15,8 +15,5 @@ namespace CoreDominationBootCamp.Models.ORM
         public DateTime? BirthDate { get; set; }
         public DateTime? AddDate { get; set; }
 
-
-
-
     }
 }
