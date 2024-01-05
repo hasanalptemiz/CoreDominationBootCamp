@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore ; 
+using CoreDominationBootCamp.Models.ORM ;
 
 
-namespace CoreDominationBootCamp.Models.ORM
+namespace CoreDominationBootCamp.Context
 {
     public class CoreDominationDbContext : DbContext
     {
@@ -10,6 +11,6 @@ namespace CoreDominationBootCamp.Models.ORM
             //connection string
             optionsBuilder.UseSqlServer("Server=DESKTOP-9D3D7OQ\\SQLEXPRESS;Database=CoreDominationBootCamp;Trusted_Connection=True;");
         }
-
-    }
+        public DbSet<Employee> Employees { get; set; }
+}
 }
