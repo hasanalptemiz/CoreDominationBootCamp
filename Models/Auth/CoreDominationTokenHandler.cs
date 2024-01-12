@@ -22,7 +22,7 @@ namespace CoreDominationBootCamp.Models.Auth
             SigningCredentials creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             JwtSecurityToken jwtToken = new JwtSecurityToken(
                issuer: "hasanalp@mail.com",
-               audience: "hasanalp2@mail.com",
+               audience: "hasanalp3@mail.com",
                claims: claims,
                expires: token.ExpirationDate,
                signingCredentials: creds
