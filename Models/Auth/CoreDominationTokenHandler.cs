@@ -21,7 +21,7 @@ namespace CoreDominationBootCamp.Models.Auth
             SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"));
             SigningCredentials creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             JwtSecurityToken jwtToken = new JwtSecurityToken(
-               issuer: "hasanalp@mail.com",
+               issuer: "hasanalp1@mail.com",
                audience: "hasanalp3@mail.com",
                claims: claims,
                expires: token.ExpirationDate,
