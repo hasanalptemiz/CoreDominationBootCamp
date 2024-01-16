@@ -1,6 +1,3 @@
-
-
-
 namespace CoreDominationBootCamp.Models.DTO
 {
     public class LoginRequestModel
